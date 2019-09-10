@@ -7,11 +7,7 @@ as a multiline comment """
 import svgwrite
 from lxml import etree # Ubuntu Karmic package: python-lxml
 
-
-import svgutils.transform as sg
-
-
-VERSION = '0.1dev' # keep in sync with setup.py
+VERSION = '0.1.01'  # keep in sync with setup.py
 
 class ImMaker:
     def create_svg_templates (self,width, height, name):
