@@ -5,7 +5,7 @@ from distutils.core import setup
 setup(
     name='LogoExportSM',
     version='0.1.01',
-    scripts=['logoexportsm'],
+    scripts=['logoexportsm.py'],
     license='Creative Commons Attribution-Noncommercial-Share Alike license',
     long_description=open('README.md').read(),
     author='Sebastian Weiss <agentur@3ele.de>',
